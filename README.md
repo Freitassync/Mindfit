@@ -20,7 +20,7 @@
    ### Passos
    1. Clone o repositório:
       ```bash
-      git clone https://github.com/seu-usuario/Mindfit.git
+      git clone https://github.com/Freitassync/Mindfit.git
       ```
    2. Abra o projeto no Android Studio:
       - Vá para **File > Open** e selecione o diretório clonado.
@@ -33,8 +33,8 @@
    ## Estrutura do Projeto
    - `app/src/main/res/layout/activity_splash.xml`: Layout da tela de introdução.
    - `app/src/main/res/layout/activity_login.xml`: Layout da tela de login.
-   - `app/src/main/java/com/seu-pacote/mindfit/SplashActivity.kt`: Lógica da tela de introdução.
-   - `app/src/main/java/com/seu-pacote/mindfit/LoginActivity.kt`: Lógica da tela de login.
+   - `app/src/main/java/com/br.com.mindfit/mindfit/SplashActivity.kt`: Lógica da tela de introdução.
+   - `app/src/main/java/com/br.com.mindfit/mindfit/LoginActivity.kt`: Lógica da tela de login.
    - `app/src/main/res/drawable/`: Contém o logotipo e ícones sociais (Google e Facebook).
 
    ## Contribuições
