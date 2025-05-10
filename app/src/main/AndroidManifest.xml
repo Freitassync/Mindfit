@@ -9,24 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mindfit">
-
+        <activity
+            android:name=".NutritionTrackerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutPlannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatbotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.Mindfit" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>

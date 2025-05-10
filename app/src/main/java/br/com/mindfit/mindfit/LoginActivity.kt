@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 // Simulação de login bem-sucedido
                 Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, MainDashboardActivity::class.java)
                 startActivity(intent)
                 finish() // Fecha a LoginActivity
             }
