@@ -18,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
         val etEmailUsername = findViewById<TextInputEditText>(R.id.et_email_username)
         val etPassword = findViewById<TextInputEditText>(R.id.et_password)
         val btnLogin = findViewById<Button>(R.id.btn_login)
+        val btnSignup = findViewById<Button>(R.id.btn_signup)
         val tvForgotPassword = findViewById<TextView>(R.id.tv_forgot_password)
         val btnGoogle = findViewById<ImageButton>(R.id.btn_google)
         val btnFacebook = findViewById<ImageButton>(R.id.btn_facebook)
@@ -33,10 +34,21 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 // Simulação de login bem-sucedido
                 Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, MainDashboardActivity::class.java)
                 startActivity(intent)
                 finish() // Fecha a LoginActivity
             }
+        }
+
+        btnSignup.setOnClickListener {
+            val intent = Intent(this, ProfileSetupActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        // Ação do botão Google (placeholder)
+        btnGoogle.setOnClickListener {
+            Toast.makeText(this, "Login com Google ainda não implementado", Toast.LENGTH_SHORT).show()
         }
 
         // Ação do link Forgot Password
