@@ -82,7 +82,6 @@ Desenvolvido por:
 - Roberto F.
 - Mateus V.
 - Felipe C.
-Ano: 2025
 
 ## Contribuições
 Contribuições são bem-vindas! Siga os passos abaixo:
@@ -97,3 +96,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 Para dúvidas ou suporte, contate a equipe via [GitHub Issues](https://github.com/Freitassync/Mindfit/issues).
+
+2025
